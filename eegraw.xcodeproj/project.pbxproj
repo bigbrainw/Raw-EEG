@@ -29,6 +29,16 @@
 		CFEBD8022D376772002669BC /* eegrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eegrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CFEBD8182D376958002669BC /* Exceptions for "eegrawTests" folder in "eegrawTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CFEBD7F72D376772002669BC /* eegrawTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CFEBD7EA2D376770002669BC /* eegraw */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -37,6 +47,9 @@
 		};
 		CFEBD7FB2D376772002669BC /* eegrawTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CFEBD8182D376958002669BC /* Exceptions for "eegrawTests" folder in "eegrawTests" target */,
+			);
 			path = eegrawTests;
 			sourceTree = "<group>";
 		};
@@ -396,8 +409,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"eegraw/Preview Content\"";
+				DEVELOPMENT_TEAM = S4UWWWVJQP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "ask for permision";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "ask for permision";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,8 +440,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"eegraw/Preview Content\"";
+				DEVELOPMENT_TEAM = S4UWWWVJQP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "ask for permision";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "ask for permision";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,7 +469,12 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4UWWWVJQP;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eegrawTests/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "ask for permision";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "ask for bluetooth";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Project1.eegrawTests;
@@ -468,7 +492,12 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4UWWWVJQP;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eegrawTests/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "ask for permision";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "ask for bluetooth";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Project1.eegrawTests;
